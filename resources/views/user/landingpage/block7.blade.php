@@ -1,3 +1,4 @@
+@if (!empty($landingPage->title == 'block05') & ($landingPage->title == 'block05'))
 
 <div id="video" class="our-videos section">
     <div class="videos-left-dec">
@@ -108,3 +109,4 @@
     </div>
   </div>
 
+@endif

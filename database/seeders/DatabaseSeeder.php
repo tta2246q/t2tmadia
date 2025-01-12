@@ -21,23 +21,86 @@ class DatabaseSeeder extends Seeder
         // ]);
         DB::table('landingpages')->insert(
             [
+                'title' => 'block01',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
                 'title' => 'block02',
                 'order' => 1,
                 'status' => 1
     
             ],
-            [
-                'title' => 'block02',
-                'order' => 2,
-                'status' => 1
-            ],
-            [
-                'title' => 'block03',
-                'order' => 3,
-                'status' => 1
-            ]
            
         );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block03',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block04',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block05',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block06',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block07',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block08',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block09',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        
         // DB::table('landingpages')->insert(
         //     [
         //         'title' => 'block02',

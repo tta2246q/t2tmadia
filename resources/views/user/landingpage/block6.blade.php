@@ -1,3 +1,4 @@
+@if (!empty($landingPage->title == 'block05') & ($landingPage->title == 'block05'))
 
 <div id="subscribe" class="subscribe">
     <div class="container">
@@ -20,3 +21,4 @@
     </div>
   </div>
 
+@endif
