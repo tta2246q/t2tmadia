@@ -15,4 +15,9 @@ class Block extends Model
         'title',
         'title1','title2','title3','title4','title5'
     ];
+
+    public function landingPage()
+    {
+        return $this->belongsTo(Landingpages::class, 'landingpage_id');
+    }
 }

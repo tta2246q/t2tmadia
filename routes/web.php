@@ -4,6 +4,7 @@ use App\Http\Controllers\LandingpageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AccountController;
+use App\Http\Controllers\BlockController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,15 +21,11 @@ use App\Http\Controllers\AccountController;
 //     return view('user.index');
 // });
 
-
 Route::get('/', function () {
     return view('admin.block.index');
 })->name('/');
 
-
-
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
 
 Route::get('/account', [AccountController::class, 'index'])->name('account-index');
 Route::get('/Edit-Account', [AccountController::class, 'Edit'])->name('Edit-Account');
